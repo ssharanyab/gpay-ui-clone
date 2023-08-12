@@ -42,7 +42,8 @@ Google pay payment UI Clone made with flutter .
 
 
 ## Demo
-[Demo APK](https://drive.google.com/file/d/1JpaBaGoe9KH-12V4cjcoCRyHDHwIvyks/view?usp=drive_link)
+- [Demo APK](https://drive.google.com/file/d/1JpaBaGoe9KH-12V4cjcoCRyHDHwIvyks/view?usp=drive_link)
+- [Video Link](https://www.youtube.com/shorts/qeNh5n59pUk)
 
 ## Screen Recording
 
@@ -52,7 +53,10 @@ Google pay payment UI Clone made with flutter .
 
 ## Screenshots
 
+|                       |                       |
+| ----------------------------------- | ----------------------------------- |
 | ![first_page](https://raw.githubusercontent.com/ssharanyab/gpay-ui-clone/main/assets/screenshots/first_page.png) | ![second_page_1](https://raw.githubusercontent.com/ssharanyab/gpay-ui-clone/main/assets/screenshots/second_page_1.png) |
+
+|                       |                       |
 | ----------------------------------- | ----------------------------------- |
 | ![second_page_2](https://raw.githubusercontent.com/ssharanyab/gpay-ui-clone/main/assets/screenshots/second_page_2.png) | ![third_page](https://raw.githubusercontent.com/ssharanyab/gpay-ui-clone/main/assets/screenshots/third_page.png) |
-
