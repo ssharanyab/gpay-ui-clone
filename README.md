@@ -1,16 +1,55 @@
-# curie_assignemnt
 
-A new Flutter project.
+# Google Pay UI Clone
 
-## Getting Started
+Google pay payment UI Clone made with flutter .
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Edit Amount in real-time
+- Enter-pin field can take values of varying length (4/6)
+- Bloc pattern used for state management
+- Custom Animations applied
+- No external packages used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/ssharanyab/gpay-ui-clone/main/assets/screenshots/screen_recording_gif.gif)
+
+
+
+|                       |                       |
+| ----------------------------------- | ----------------------------------- |
+| ![first_page](https://raw.githubusercontent.com/ssharanyab/gpay-ui-clone/main/assets/screenshots/first_page.png) | ![second_page_1](https://raw.githubusercontent.com/ssharanyab/gpay-ui-clone/main/assets/screenshots/second_page_1.png) |
+
+|                       |                       |
+| ----------------------------------- | ----------------------------------- |
+| ![second_page_2](https://raw.githubusercontent.com/ssharanyab/gpay-ui-clone/main/assets/screenshots/second_page_2.png) | ![third_page](https://raw.githubusercontent.com/ssharanyab/gpay-ui-clone/main/assets/screenshots/third_page.png) |
+
+## Dummy Data Used
+- NOTE: Length of enter pin field varies based on this data
+
+```dart
+  final List<BankModel> bankList = [
+    BankModel(
+      bankName: 'Bank One',
+      bankIcon: Icons.account_balance_wallet,
+      bankAccountNumber: '12345678',
+      pin: 3456,
+    ),
+    BankModel(
+      bankName: 'Bank Two',
+      bankIcon: Icons.savings,
+      bankAccountNumber: '87654321',
+      pin: 6789,
+    ),
+    BankModel(
+      bankName: 'Bank Three',
+      bankIcon: Icons.paid,
+      bankAccountNumber: '24681357',
+      pin: 123456,
+    ),
+  ];
+```
+
